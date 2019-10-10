@@ -13,16 +13,16 @@
         }
         h1 {
             color: rgb(255, 255, 255);
+            /*Comentario em CSS*/
         }
     </style>
 </head>
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1>Olá, mundo!</h1> <!-- Comentario em HTML-->
     <p>Já me livrei da maldição!!</p>
     <script>
-        window.alert ('Minha primeira mensagem!'); //Janela de alerta (pop-up)
-        window.confirm('Está gostando de JavaScript?'); //Janela com ok e cancelar.
-        window.prompt('Qual é seu nome ?');//Janela com barra de inserção.
+        var nome = window.prompt('Qual é seu nome ?');//Janela com barra de inserção.
+        window.alert('É um prazer te conhecer, ' + nome, '!'); //Concatenação
     </script>
 </body>
 </html>
