@@ -25,14 +25,15 @@
 </style>
 <body>
     <h1>Olá, estamos realizando testes...</h1>
-    <p>Veja aqui algumas informações:</p>
+    <p>Veja aqui algumas informações (aproximadas):</p>
     <script>
         var nome = (window.prompt("Insira o seu nome: "))
         var idade = Number (window.prompt("Insira a sua idade: "));
         var ano = Number (2019);
         var dtNascimento = idade-ano;
+        var dtNascimentoCor = dtNascimento*(-1)-1;
 
-        document.write(`Olá ${nome}, você nasceu no ano de ${dtNascimento}!`);
+        document.write(`Olá ${nome}, você nasceu no ano de: ${dtNascimentoCor}!`);
     </script>
 </body>
 </html>
